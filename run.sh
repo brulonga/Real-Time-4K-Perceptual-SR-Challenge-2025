@@ -1,7 +1,7 @@
 # --- Evaluation on LSDIR_DIV2K_valid datasets for One Method:
 CUDA_VISIBLE_DEVICES=1 python3 test_demo.py \
-    --data_dir "/mnt/valab-datasets/SuperRes_datasets/PERCEPTUAL_DATASETS/RealSR_validation_reduce" \
-    --save_dir "/mnt/valab-datasets/SuperRes_datasets/PERCEPTUAL_results/RealSR_validation" \
+    --data_dir "" \
+    --save_dir "" \
     --model_id 0
 
 # --- When Test datasets are included (For organizer)

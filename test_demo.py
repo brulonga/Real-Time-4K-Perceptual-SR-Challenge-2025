@@ -227,7 +227,7 @@ def main(args):
             test_results = run(model, model_name, data_range, tile, logger, device, args, mode="test")
             results[model_name].update(test_results)
 
-        input_dim = (3, 256, 256)  # set the input dimension
+        input_dim = (3, 960, 540)  # set the input dimension
         activations, num_conv = get_model_activation(model, input_dim)
         activations = activations/10**6
         logger.info("{:>16s} : {:<.4f} [M]".format("#Activations", activations))
@@ -239,7 +239,7 @@ def main(args):
         # logger.info("{:>16s} : {:<.4f} [G]".format("FLOPs", flops))
 
         # fvcore is used for FLOPs calculation
-        input_fake = torch.rand(1, 3, 256, 256).to(device)
+        input_fake = torch.rand(1, 3, 960, 540).to(device)
         flops = FlopCountAnalysis(model, input_fake).total()
         flops = flops/10**9
         logger.info("{:>16s} : {:<.4f} [G]".format("FLOPs", flops))

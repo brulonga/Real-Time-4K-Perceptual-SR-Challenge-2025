@@ -6996,3 +6996,37 @@
 25-05-23 13:26:01.700 : Canon_003_LR4.png - PI: 8.77; ClipIQA: 0.5568, MANIQA: 0.2862.
 25-05-23 13:26:05.229 : Canon_020_LR4.png - PI: 9.14; ClipIQA: 0.2831, MANIQA: 0.1676.
 25-05-23 13:26:33.538 : Nikon_021_LR4.png - PI: 9.08; ClipIQA: 0.5323, MANIQA: 0.3208.
+25-06-06 12:27:31.644 : 00_ESRGAN
+25-06-06 12:27:42.482 : Nikon_039_LR4.png - PI: 3.83; ClipIQA: 0.5479, MANIQA: 0.3296.
+25-06-06 12:27:48.067 : Nikon_049_LR4.png - PI: 3.88; ClipIQA: 0.5118, MANIQA: 0.3992.
+25-06-06 12:29:28.853 : 00_ESRGAN
+25-06-06 12:29:37.047 : Canon_001_LR4.png - PI: 5.35; ClipIQA: 0.4963, MANIQA: 0.4171.
+25-06-06 12:29:37.047 :       Max Memory : 5125.942 [M]
+25-06-06 12:29:37.047 : ------> Average runtime of (valid) is : 820.962585 milliseconds
+25-06-06 12:29:37.047 : ------> Average PI of (valid) is : 5.352702 dB
+25-06-06 12:29:37.047 : ------> Average ClipIQA of (valid) is : 0.496313 dB
+25-06-06 12:29:37.047 : ------> Average MANIQA of (valid) is : 0.417089 dB
+25-06-06 12:29:37.526 :     #Activations : 8153.3952 [M]
+25-06-06 12:29:37.526 :          #Conv2d : 351
+25-06-06 12:29:38.438 :            FLOPs : 1174.9378 [G]
+25-06-06 12:29:38.439 :          #Params : 16.6980 [M]
+25-06-06 12:30:21.398 : 00_ESRGAN
+25-06-06 12:30:29.274 : Canon_001_LR4.png - PI: 5.35; ClipIQA: 0.4963, MANIQA: 0.4171.
+25-06-06 12:30:29.274 :       Max Memory : 5125.942 [M]
+25-06-06 12:30:29.274 : ------> Average runtime of (valid) is : 819.096130 milliseconds
+25-06-06 12:30:29.274 : ------> Average PI of (valid) is : 5.352702 dB
+25-06-06 12:30:29.274 : ------> Average ClipIQA of (valid) is : 0.496313 dB
+25-06-06 12:30:29.274 : ------> Average MANIQA of (valid) is : 0.417089 dB
+25-06-06 12:30:29.750 :     #Activations : 8153.3952 [M]
+25-06-06 12:30:29.750 :          #Conv2d : 351
+25-06-06 12:30:59.948 : 00_ESRGAN
+25-06-06 12:31:07.838 : Canon_001_LR4.png - PI: 5.35; ClipIQA: 0.4963, MANIQA: 0.4171.
+25-06-06 12:31:07.839 :       Max Memory : 5125.942 [M]
+25-06-06 12:31:07.839 : ------> Average runtime of (valid) is : 822.745728 milliseconds
+25-06-06 12:31:07.839 : ------> Average PI of (valid) is : 5.352702 dB
+25-06-06 12:31:07.839 : ------> Average ClipIQA of (valid) is : 0.496313 dB
+25-06-06 12:31:07.839 : ------> Average MANIQA of (valid) is : 0.417089 dB
+25-06-06 12:31:08.318 :     #Activations : 8153.3952 [M]
+25-06-06 12:31:08.318 :          #Conv2d : 351
+25-06-06 12:31:09.522 :            FLOPs : 9293.9416 [G]
+25-06-06 12:31:09.523 :          #Params : 16.6980 [M]

@@ -1,5 +1,6 @@
 __pycache__/
 venv_RT4KPSR/
 CVPR2025-RT4KPSR.log/
-results.json/
+results.json
 results.txt/
+CVPR2025-RT4KPSR.log
